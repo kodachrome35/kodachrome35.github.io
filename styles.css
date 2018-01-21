@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Slabo+27px');
+
+h1, h2, h3 {font-family: 'montserrat', sans-serif;
+color: #292C44;
+}
+
+p, li {
+    font-family: slabo, serif;
+    color: #292C44;
+}
+
+body {
+    background: url('images.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #F0F0F1;
+    text-align: center;
+    padding: 5px 5px;
+    border-top: 5px solid #FF5349;
+}
+
+.main-content {
+    background-color: #4F80E1;
+    padding: 10px 0px;
+    border-top: 5px solid #FF5349;
+}
+
+header img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.main-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.main-content ul li {
+    display: inline;
+    padding: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: #F0F0F1;
+    text-decoration: none;
+}
+
+.main-content p {
+    margin: 10px 40px;
+}
+
+.main-content h2 {
+    text-align: center;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    grid-gap: 3%;
+}
+
+.project {
+    width: 100%;
+    display: inline-block;
+    background-color: #F0F0F1;
+    border-radius: 15px;
+}
+
+.project img {
+    max-width: 100%;
+}
